@@ -6,7 +6,7 @@
 """,
     'author': 'YourCompany',
     'depends': [
-        'base',
+        'base', 'mail',
     ],
     'data': [
         'data/ir_model.xml',
