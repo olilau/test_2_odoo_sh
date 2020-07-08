@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Studio customizations',
-    'version': '13.0.1.1',
+    'version': '13.0.1.2',
     'description': u"""
 """,
     'author': 'YourCompany',
