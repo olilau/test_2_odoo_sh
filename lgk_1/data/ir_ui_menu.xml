@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="toto_1f0d5ef4-90e0-4059-bffa-384251835d5c" model="ir.ui.menu">
+    <field name="action" eval="False"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Toto</field>
+    <field name="parent_id" eval="False"/>
+    <field name="sequence">10</field>
+    <field name="web_icon">fa fa-diamond,#f1c40f,#34495e</field>
+  </record>
+  <record id="toto_thing_b8e2cf9b-852a-45ae-ad73-446596a373cd" model="ir.ui.menu">
+    <field name="action" ref="thing_e123dddf-b268-4eb2-a176-b7484d141e3b"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">thing</field>
+    <field name="parent_id" ref="toto_1f0d5ef4-90e0-4059-bffa-384251835d5c"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+</odoo>
