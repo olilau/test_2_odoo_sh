@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <odoo>
-  <record id="toto_1f0d5ef4-90e0-4059-bffa-384251835d5c" model="ir.ui.menu">
+  <record id="tata_1f0d5ef4-90e0-4059-bffa-384251835d5c" model="ir.ui.menu">
     <field name="action" eval="False"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
@@ -9,4 +9,14 @@
     <field name="sequence">20</field>
     <field name="web_icon">fa fa-diamond,#f1c40f,#34495e</field>
   </record>
+  <record id="tata_b8e2cf9b-852a-45ae-ad73-446596a373cd" model="ir.ui.menu">
+    <field name="action" ref="False"/>
+    <field name="active" eval="True"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="name">Titi</field>
+    <field name="parent_id" ref="toto_1f0d5ef4-90e0-4059-bffa-384251835d5c"/>
+    <field name="sequence">10</field>
+    <field name="web_icon" eval="False"/>
+  </record>
+
 </odoo>
