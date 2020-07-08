@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="studio_customization.default_form_view_fo_a54b04e5-27c2-4697-9fb1-eb3c782a971d" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <form>
+        <sheet string="thing">
+          <div class="oe_title">
+            <h1>
+              <field name="x_name" required="1"/>
+            </h1>
+          </div>
+          <group name="studio_group_9b7026">
+            <group name="studio_group_9b7026_left"/>
+            <group name="studio_group_9b7026_right"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_thing</field>
+    <field name="name">Default form view for x_thing</field>
+    <field name="priority">16</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.odoo_studio_default__8e7615d8-359a-4499-ae25-05134c8fdc1d" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <data>
+        <xpath expr="//group[@name='studio_group_9b7026_left']" position="inside">
+          <field name="x_studio_state" string="state"/>
+        </xpath>
+        <xpath expr="//group[@name='studio_group_9b7026_right']" position="inside">
+          <field name="x_studio_number" string="number"/>
+        </xpath>
+      </data>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" ref="studio_customization.default_form_view_fo_a54b04e5-27c2-4697-9fb1-eb3c782a971d"/>
+    <field name="key" eval="False"/>
+    <field name="mode">extension</field>
+    <field name="model">x_thing</field>
+    <field name="name">Odoo Studio: Default form view for x_thing customization</field>
+    <field name="priority">99</field>
+    <field name="type">form</field>
+  </record>
+  <record id="studio_customization.default_tree_view_fo_b316b72e-9115-4ae5-b595-66a93b3e2b19" model="ir.ui.view" context="{'studio': True}">
+    <field name="active" eval="True"/>
+    <field name="arch" type="xml">
+      <tree string="thing">
+        <field name="x_name" modifiers="{}"/>
+      </tree>
+    </field>
+    <field name="field_parent" eval="False"/>
+    <field name="groups_id" eval="[(6, 0, [])]"/>
+    <field name="inherit_id" eval="False"/>
+    <field name="key" eval="False"/>
+    <field name="mode">primary</field>
+    <field name="model">x_thing</field>
+    <field name="name">Default tree view for x_thing</field>
+    <field name="priority">16</field>
+    <field name="type">tree</field>
+  </record>
+</odoo>
