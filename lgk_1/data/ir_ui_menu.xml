@@ -13,7 +13,7 @@
     <field name="action" ref="thing_e123dddf-b268-4eb2-a176-b7484d141e3b"/>
     <field name="active" eval="True"/>
     <field name="groups_id" eval="[(6, 0, [])]"/>
-    <field name="name">The Thing</field>
+    <field name="name">Thingy 1</field>
     <field name="parent_id" ref="toto_1f0d5ef4-90e0-4059-bffa-384251835d5c"/>
     <field name="sequence">10</field>
     <field name="web_icon" eval="False"/>

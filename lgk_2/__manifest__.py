@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'LGK 2',
-    'version': '13.0.1.1',
+    'version': '13.0.1.3',
     'description': u"""
 """,
     'author': 'YourCompany',
